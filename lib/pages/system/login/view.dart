@@ -18,6 +18,7 @@ class LoginPage extends GetView<LoginController> {
     return GetBuilder<LoginController>(
       builder: (_) {
         return Scaffold(
+          //  添加注释
           appBar: AppBar(title: const Text("login"), centerTitle: true),
           body: SafeArea(child: _buildView()),
         );
