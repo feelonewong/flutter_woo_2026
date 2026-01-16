@@ -15,6 +15,10 @@ class LoginController extends GetxController {
     );
   }
 
+  void onTap(int index) {
+    state.title = '点击了第$index个按钮';
+  }
+
   /// 在 widget 内存中分配后立即调用。
   @override
   void onInit() {

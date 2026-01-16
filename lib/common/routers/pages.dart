@@ -10,5 +10,6 @@ class RoutePages {
       page: () => const LoginPage(),
       binding: LoginBinding(),
     ),
+    GetPage(name: RouteNames.systemSplash, page: () => const SplashPage()),
   ];
 }
