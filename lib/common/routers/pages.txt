@@ -1,9 +1,45 @@
 
       GetPage(
+        name: RouteNames.cart,
+        page: () => const CartPage(),
+      ),
+      GetPage(
+        name: RouteNames.goods,
+        page: () => const GoodsPage(),
+      ),
+      GetPage(
+        name: RouteNames.my,
+        page: () => const MyPage(),
+      ),
+      GetPage(
+        name: RouteNames.search,
+        page: () => const SearchPage(),
+      ),
+      GetPage(
         name: RouteNames.systemLogin,
         page: () => const LoginPage(),
       ),
       GetPage(
+        name: RouteNames.systemMain,
+        page: () => const MainPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemRegister,
+        page: () => const RegisterPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemRegisterPin,
+        page: () => const RegisterPinPage(),
+      ),
+      GetPage(
         name: RouteNames.systemSplash,
         page: () => const SplashPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemUserAgreement,
+        page: () => const UserAgreementPage(),
+      ),
+      GetPage(
+        name: RouteNames.systemWelcome,
+        page: () => const WelcomePage(),
       ),

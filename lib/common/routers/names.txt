@@ -1,2 +1,11 @@
+static const cart = '/cart';
+static const goods = '/goods';
+static const my = '/my';
+static const search = '/search';
 static const systemLogin = '/system_login';
+static const systemMain = '/system_main';
+static const systemRegister = '/system_register';
+static const systemRegisterPin = '/system_register_pin';
 static const systemSplash = '/system_splash';
+static const systemUserAgreement = '/system_user_agreement';
+static const systemWelcome = '/system_welcome';
